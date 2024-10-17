@@ -1,0 +1,382 @@
+[
+    {
+      "model": "auth.user",
+      "pk": 1,
+      "fields": {
+        "username": "user1",
+        "password": "pbkdf2_sha256$870000$k6gpgD6Z8rw6kFywSpeoe4$430pdqZlHC+mzvlFS/9wIdg76YhGC7Q28A/X8A9enR8=",
+        "email": "user1@example.com",
+        "first_name": "User",
+        "last_name": "One"
+      }
+    },
+    {
+      "model": "auth.user",
+      "pk": 2,
+      "fields": {
+        "username": "user2",
+        "password": "pbkdf2_sha256$870000$k6gpgD6Z8rw6kFywSpeoe4$430pdqZlHC+mzvlFS/9wIdg76YhGC7Q28A/X8A9enR8=",
+        "email": "user2@example.com",
+        "first_name": "User",
+        "last_name": "Two"
+      }
+    },
+    {
+      "model": "auth.user",
+      "pk": 3,
+      "fields": {
+        "username": "user3",
+        "password": "pbkdf2_sha256$870000$k6gpgD6Z8rw6kFywSpeoe4$430pdqZlHC+mzvlFS/9wIdg76YhGC7Q28A/X8A9enR8=",
+        "email": "user3@example.com",
+        "first_name": "User",
+        "last_name": "Three"
+      }
+    },
+    {
+      "model": "auth.user",
+      "pk": 4,
+      "fields": {
+        "username": "user4",
+        "password": "pbkdf2_sha256$870000$k6gpgD6Z8rw6kFywSpeoe4$430pdqZlHC+mzvlFS/9wIdg76YhGC7Q28A/X8A9enR8=",
+        "email": "user4@example.com",
+        "first_name": "User",
+        "last_name": "Four"
+      }
+    },
+    {
+      "model": "auth.user",
+      "pk": 5,
+      "fields": {
+        "username": "user5",
+        "password": "pbkdf2_sha256$870000$k6gpgD6Z8rw6kFywSpeoe4$430pdqZlHC+mzvlFS/9wIdg76YhGC7Q28A/X8A9enR8=",
+        "email": "user5@example.com",
+        "first_name": "User",
+        "last_name": "Five"
+      }
+    },
+    {
+      "model": "auth.user",
+      "pk": 6,
+      "fields": {
+        "username": "user6",
+        "password": "pbkdf2_sha256$870000$k6gpgD6Z8rw6kFywSpeoe4$430pdqZlHC+mzvlFS/9wIdg76YhGC7Q28A/X8A9enR8=",
+        "email": "user6@example.com",
+        "first_name": "User",
+        "last_name": "Six"
+      }
+    },
+    {
+      "model": "auth.user",
+      "pk": 7,
+      "fields": {
+        "username": "user7",
+        "password": "pbkdf2_sha256$870000$k6gpgD6Z8rw6kFywSpeoe4$430pdqZlHC+mzvlFS/9wIdg76YhGC7Q28A/X8A9enR8=",
+        "email": "user7@example.com",
+        "first_name": "User",
+        "last_name": "Seven"
+      }
+    },
+    {
+      "model": "auth.user",
+      "pk": 8,
+      "fields": {
+        "username": "user8",
+        "password": "pbkdf2_sha256$870000$k6gpgD6Z8rw6kFywSpeoe4$430pdqZlHC+mzvlFS/9wIdg76YhGC7Q28A/X8A9enR8=",
+        "email": "user8@example.com",
+        "first_name": "User",
+        "last_name": "Eight"
+      }
+    },
+    {
+      "model": "auth.user",
+      "pk": 9,
+      "fields": {
+        "username": "user9",
+        "password": "pbkdf2_sha256$870000$k6gpgD6Z8rw6kFywSpeoe4$430pdqZlHC+mzvlFS/9wIdg76YhGC7Q28A/X8A9enR8=",
+        "email": "user9@example.com",
+        "first_name": "User",
+        "last_name": "Nine"
+      }
+    },
+    {
+      "model": "auth.user",
+      "pk": 10,
+      "fields": {
+        "username": "user10",
+        "password": "pbkdf2_sha256$870000$k6gpgD6Z8rw6kFywSpeoe4$430pdqZlHC+mzvlFS/9wIdg76YhGC7Q28A/X8A9enR8=",
+        "email": "user10@example.com",
+        "first_name": "User",
+        "last_name": "Ten"
+      }
+    },
+    {
+      "model": "BooksManagement.author",
+      "pk": 1,
+      "fields": {
+        "name": "J.K.",
+        "family": "Rowling"
+      }
+    },
+    {
+      "model": "BooksManagement.author",
+      "pk": 2,
+      "fields": {
+        "name": "George",
+        "family": "Orwell"
+      }
+    },
+    {
+      "model": "BooksManagement.author",
+      "pk": 3,
+      "fields": {
+        "name": "F. Scott",
+        "family": "Fitzgerald"
+      }
+    },
+    {
+      "model": "BooksManagement.author",
+      "pk": 4,
+      "fields": {
+        "name": "Jane",
+        "family": "Austen"
+      }
+    },
+    {
+      "model": "BooksManagement.author",
+      "pk": 5,
+      "fields": {
+        "name": "Mark",
+        "family": "Twain"
+      }
+    },
+    {
+      "model": "BooksManagement.author",
+      "pk": 6,
+      "fields": {
+        "name": "J.R.R.",
+        "family": "Tolkien"
+      }
+    },
+    {
+      "model": "BooksManagement.author",
+      "pk": 7,
+      "fields": {
+        "name": "Harper",
+        "family": "Lee"
+      }
+    },
+    {
+      "model": "BooksManagement.author",
+      "pk": 8,
+      "fields": {
+        "name": "Leo",
+        "family": "Tolstoy"
+      }
+    },
+    {
+      "model": "BooksManagement.author",
+      "pk": 9,
+      "fields": {
+        "name": "Herman",
+        "family": "Melville"
+      }
+    },
+    {
+      "model": "BooksManagement.author",
+      "pk": 10,
+      "fields": {
+        "name": "Charles",
+        "family": "Dickens"
+      }
+    },
+    {
+      "model": "BooksManagement.category",
+      "pk": 1,
+      "fields": {
+        "name": "Fantasy"
+      }
+    },
+    {
+      "model": "BooksManagement.category",
+      "pk": 2,
+      "fields": {
+        "name": "Science Fiction"
+      }
+    },
+    {
+      "model": "BooksManagement.category",
+      "pk": 3,
+      "fields": {
+        "name": "Classic"
+      }
+    },
+    {
+      "model": "BooksManagement.category",
+      "pk": 4,
+      "fields": {
+        "name": "Mystery"
+      }
+    },
+    {
+      "model": "BooksManagement.category",
+      "pk": 5,
+      "fields": {
+        "name": "Historical Fiction"
+      }
+    },
+    {
+      "model": "BooksManagement.category",
+      "pk": 6,
+      "fields": {
+        "name": "Adventure"
+      }
+    },
+    {
+      "model": "BooksManagement.category",
+      "pk": 7,
+      "fields": {
+        "name": "Romance"
+      }
+    },
+    {
+      "model": "BooksManagement.category",
+      "pk": 8,
+      "fields": {
+        "name": "Thriller"
+      }
+    },
+    {
+      "model": "BooksManagement.category",
+      "pk": 9,
+      "fields": {
+        "name": "Non-Fiction"
+      }
+    },
+    {
+      "model": "BooksManagement.category",
+      "pk": 10,
+      "fields": {
+        "name": "Biography"
+      }
+    },
+    {
+      "model": "BooksManagement.book",
+      "pk": 1,
+      "fields": {
+        "title": "Harry Potter and the Philosopher's Stone",
+        "isbn": "978-3-16-148410-0",
+        "author": 1,
+        "summary": "A young boy discovers he is a wizard.",
+        "is_available": true,
+        "category": [1]
+      }
+    },
+    {
+      "model": "BooksManagement.book",
+      "pk": 2,
+      "fields": {
+        "title": "1984",
+        "isbn": "978-0-452-28423-4",
+        "author": 2,
+        "summary": "A dystopian novel about totalitarianism.",
+        "is_available": true,
+        "category": [2]
+      }
+    },
+    {
+      "model": "BooksManagement.book",
+      "pk": 3,
+      "fields": {
+        "title": "Pride and Prejudice",
+        "isbn": "978-0-307-95606-3",
+        "author": 4,
+        "summary": "A romantic novel about manners and matrimonial machinations.",
+        "is_available": true,
+        "category": [3, 7]
+      }
+    },
+    {
+      "model": "BooksManagement.book",
+      "pk": 4,
+      "fields": {
+        "title": "The Adventures of Tom Sawyer",
+        "isbn": "978-0-141-43971-5",
+        "author": 5,
+        "summary": "A story about the adventures of a young boy.",
+        "is_available": true,
+        "category": [6]
+      }
+    },
+    {
+      "model": "BooksManagement.book",
+      "pk": 5,
+      "fields": {
+        "title": "The Hobbit",
+        "isbn": "978-0-261-10333-0",
+        "author": 6,
+        "summary": "A hobbit embarks on an unexpected journey.",
+        "is_available": true,
+        "category": [1, 6]
+      }
+    },
+    {
+      "model": "BooksManagement.book",
+      "pk": 6,
+      "fields": {
+        "title": "To Kill a Mockingbird",
+        "isbn": "978-0-06-112008-4",
+        "author": 7,
+        "summary": "A novel about racial injustice in the Deep South.",
+        "is_available": true,
+        "category": [5, 3]
+      }
+    },
+    {
+      "model": "BooksManagement.book",
+      "pk": 7,
+      "fields": {
+        "title": "War and Peace",
+        "isbn": "978-0-14-303999-0",
+        "author": 8,
+        "summary": "A historical novel about the Napoleonic wars.",
+        "is_available": true,
+        "category": [5]
+      }
+    },
+    {
+      "model": "BooksManagement.book",
+      "pk": 8,
+      "fields": {
+        "title": "Moby Dick",
+        "isbn": "978-0-14-243724-7",
+        "author": 9,
+        "summary": "A whaling voyage that turns into an obsession.",
+        "is_available": true,
+        "category": [6, 3]
+      }
+    },
+    {
+      "model": "BooksManagement.book",
+      "pk": 9,
+      "fields": {
+        "title": "A Tale of Two Cities",
+        "isbn": "978-0-19-953623-8",
+        "author": 10,
+        "summary": "A novel set during the French Revolution.",
+        "is_available": true,
+        "category": [5, 3]
+      }
+    },
+    {
+      "model": "BooksManagement.book",
+      "pk": 10,
+      "fields": {
+        "title": "Animal Farm",
+        "isbn": "978-0-452-28425-8",
+        "author": 2,
+        "summary": "An allegorical novella about revolution.",
+        "is_available": true,
+        "category": [2, 8]
+      }
+    }
+  ]
