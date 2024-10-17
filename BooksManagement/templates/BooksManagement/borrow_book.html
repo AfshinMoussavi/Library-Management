@@ -1,0 +1,31 @@
+{% extends 'base.html' %}
+{% block title %}add new book to library{% endblock %}
+
+{% block content %}
+<div class="container">
+    <div class="row">
+        <div class="col-4">
+            <h4>{{ book.title }}</h4>
+            <p><strong>Author:</strong> {{ book.author }}</p>
+            <p><strong>ISBN:</strong> {{ book.isbn }}</p>
+            <p><strong>Categories:</strong>
+                {% for cat in book.category.all %}
+                    {{ cat.name }}{% if not forloop.last %} , {% endif %}
+                {% endfor %}
+            </p>
+        </div>
+    </div>
+</div>
+<hr>
+    <div class="container mt-4">
+
+    <form method="post" novalidate="">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <p>Example: 2023-09-19T09:10:00Z</p>
+        <button type="submit" class="btn btn-success">Save</button>
+        <a href="{% url 'book:book_list' %}" class="btn btn-secondary">Cancel</a>
+    </form>
+
+</div>
+{% endblock %}

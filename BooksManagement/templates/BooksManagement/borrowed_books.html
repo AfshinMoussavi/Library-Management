@@ -1,0 +1,30 @@
+{% extends 'base.html' %}
+{% block title %}Borrowed Books{% endblock %}
+{% block content %}
+    <div class="container mt-4">
+        {% if borrowed_books %}
+            {% for borrowed_book in borrowed_books %}
+                <div class="card mb-3">
+                    <div class="card-body">
+                        <h4 class="card-title">{{ borrowed_book.book.title }}</h4>
+                        <p><strong>Author:</strong> {{ borrowed_book.book.author.name }} {{ borrowed_book.book.author.family }}</p>
+                        <p><strong>ISBN:</strong> {{ borrowed_book.book.isbn }}</p>
+                        <p><strong>Summary:</strong> {{ borrowed_book.book.summary }}</p>
+                        <p><strong>Borrowed by:</strong> {{ borrowed_book.user.username }}</p>
+                        <p><strong>Borrowed date:</strong> {{ borrowed_book.borrow_date|date:"F j, Y, g:i a" }}</p>
+                        <p><strong>Return date:</strong> 
+                            {% if borrowed_book.return_date %}
+                                {{ borrowed_book.return_date|date:"F j, Y" }}
+                            {% else %}
+                                <span class="text-danger">Not yet returned</span>
+                            {% endif %}
+                        </p>
+                        <a href="{% url 'book:retake_book' borrowed_book.book.id %}" class="btn btn-primary">Retake Book</a>
+                    </div>
+                </div>
+            {% endfor %}
+        {% else %}
+            <h3>No books are currently borrowed.</h3>
+        {% endif %}
+    </div>
+{% endblock %}
