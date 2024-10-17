@@ -53,4 +53,4 @@ class BookAdmin(admin.ModelAdmin):
 
 @admin.register(models.BorrowedBook)
 class BorrowedBookAdmin(admin.ModelAdmin):
-    list_display = ['id', 'user', 'book', 'borrowed_book', 'return_date']
+    list_display = ['id', 'user', 'book', 'borrow_date', 'return_date']

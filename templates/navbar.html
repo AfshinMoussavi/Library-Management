@@ -7,10 +7,10 @@
                     <a class="nav-link" href="{% url 'book:book_list' %}">Books</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="">Add Book</a>
+                    <a class="nav-link" href="{% url 'book:book_create' %}">Add Book</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="">List of borrowed books</a>
+                    <a class="nav-link" href="{% url 'book:borrowed_books' %}">List of borrowed books</a>
                 </li>
             </ul>
         </div>
