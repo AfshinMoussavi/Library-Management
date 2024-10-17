@@ -23,7 +23,7 @@ git clone https://github.com/AfshinMoussavi/Library-Management.git
 cd Library-Management
 ```
 
-2. Set Up a Virtual Environment (Optional but Recommended)
+### 2. Set Up a Virtual Environment (Optional but Recommended)
 It's recommended to use a virtual environment to isolate your project dependencies:
 
 ```bash
@@ -31,14 +31,14 @@ python -m venv .venv
 source .venv/bin/activate
 ```
 
-3. Install Dependencies
+### 3. Install Dependencies
 Install the necessary Python packages by running:
 
 ```bash
 pip install -r requirements.txt
 ```
 
-4. Apply Migrations
+### 4. Apply Migrations
 Before running the project, apply the migrations to create the necessary database tables:
 
 ```bash
@@ -46,21 +46,21 @@ python manage.py makemigrations
 python manage.py migrate
 ```
 
-5. Create a Superuser
+### 5. Create a Superuser
 To access the Django admin interface, you need to create a superuser. Run the following command and follow the prompts to set up an admin user:
 
 ```bash
 python manage.py createsuperuser
 ```
 
-6. Load Initial Data
+### 6. Load Initial Data
 To populate the database with the initial data (e.g., books, authors, users), load the initial_data.json file:
 
 ```bash
 python manage.py loaddata initial_data.json
 ```
 
-7. Run the Development Server
+### 7. Run the Development Server
 
 ```bash
 python manage.py runserver
